@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/animals-trivia-app/static/css/main.57ae8f20.chunk.css",
+    "main.js": "/animals-trivia-app/static/js/main.3b1749a2.chunk.js",
+    "main.js.map": "/animals-trivia-app/static/js/main.3b1749a2.chunk.js.map",
+    "runtime~main.js": "/animals-trivia-app/static/js/runtime~main.37ea9438.js",
+    "runtime~main.js.map": "/animals-trivia-app/static/js/runtime~main.37ea9438.js.map",
+    "static/js/2.717349fb.chunk.js": "/animals-trivia-app/static/js/2.717349fb.chunk.js",
+    "static/js/2.717349fb.chunk.js.map": "/animals-trivia-app/static/js/2.717349fb.chunk.js.map",
+    "index.html": "/animals-trivia-app/index.html",
+    "precache-manifest.1469b6ab677021fc30e9ef0a4e5db26f.js": "/animals-trivia-app/precache-manifest.1469b6ab677021fc30e9ef0a4e5db26f.js",
+    "service-worker.js": "/animals-trivia-app/service-worker.js",
+    "static/css/main.57ae8f20.chunk.css.map": "/animals-trivia-app/static/css/main.57ae8f20.chunk.css.map"
+  }
+}
