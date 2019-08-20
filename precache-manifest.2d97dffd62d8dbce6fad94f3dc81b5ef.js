@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5f8976c1f5d9d0334e0f70ba36e543d7",
+    "revision": "d839e762ebaedaec75c0715a15af8324",
     "url": "/animals-trivia-app/index.html"
   },
   {
-    "revision": "90ca7936836c8bada660",
-    "url": "/animals-trivia-app/static/css/main.57ae8f20.chunk.css"
+    "revision": "5bf0bf314d1ca2e21980",
+    "url": "/animals-trivia-app/static/css/main.5c4d0169.chunk.css"
   },
   {
     "revision": "bdc365f2ced34617698f",
     "url": "/animals-trivia-app/static/js/2.717349fb.chunk.js"
   },
   {
-    "revision": "90ca7936836c8bada660",
-    "url": "/animals-trivia-app/static/js/main.3b1749a2.chunk.js"
+    "revision": "5bf0bf314d1ca2e21980",
+    "url": "/animals-trivia-app/static/js/main.fcd1c27f.chunk.js"
   },
   {
     "revision": "cd3130b001277cb9e18e",

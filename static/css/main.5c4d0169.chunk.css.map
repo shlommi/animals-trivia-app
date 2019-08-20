@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,KACE,wBAAyB,CACzB,gBAAiB,CACjB,cACF,CAEA,yBACE,KACE,gBAAiB,CACjB,qBACF,CACF","file":"main.5c4d0169.chunk.css","sourcesContent":["body {\n  background-color: #282c34;\n  min-height: 100vh;\n  font-size: 2rem;\n}\n\n@media (max-width: 320px) {\n  body {\n    min-height: 100vh;\n    background-color: #fff;\n  }\n}\n"]}

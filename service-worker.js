@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/animals-trivia-app/precache-manifest.1469b6ab677021fc30e9ef0a4e5db26f.js"
+  "/animals-trivia-app/precache-manifest.2d97dffd62d8dbce6fad94f3dc81b5ef.js"
 );
 
 self.addEventListener('message', (event) => {
