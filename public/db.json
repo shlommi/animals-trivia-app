@@ -1,0 +1,55 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "Animals",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the fastest  land animal?",
+      "correct_answer": 0,
+      "answers": ["Cheetah", "Lion", "Gorilla", "Pronghorn Antelope"]
+    },
+    {
+      "category": "Animals",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the scientific name for modern day humans?",
+      "correct_answer": 1,
+      "answers": [
+        "Homo Ergaster",
+        "Homo Sapiens",
+        "Homo Erectus",
+        "Homo Neanderthalensis"
+      ]
+    },
+    {
+      "category": "Animals",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Hippocampus is the Latin name for which marine creature?",
+      "correct_answer": 3,
+      "answers": ["Dolphin", "Whale", "Octopus", "Seahorse"]
+    },
+    {
+      "category": "Animals",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "How many legs do butterflies have?",
+      "correct_answer": 1,
+      "answers": ["2", "6", "4", "0"]
+    },
+    {
+      "category": "Animals",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What was the name of the Ethiopian Wolf before they knew it was related to wolves?",
+      "correct_answer": 0,
+      "answers": [
+        "Simien Jackel",
+        "Ethiopian Coyote",
+        "Amharic Fox",
+        "Canis Simiensis"
+      ]
+    }
+  ]
+}
