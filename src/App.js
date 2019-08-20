@@ -30,10 +30,8 @@ class App extends Component {
   }
 
   handleNextButton = () => {
-    if (
-      this.state.currentQuestionIndex ===
-      this.state.allQuestions.length - 1
-    ) {
+    const { currentQuestionIndex, allQuestions } = this.state;
+    if (currentQuestionIndex === allQuestions.length - 1) {
       this.setState({
         currentQuestionIndex: 0,
         choosenAnswer: null,
@@ -71,11 +69,10 @@ class App extends Component {
   };
 
   render() {
-    const totalLength = this.state.allQuestions.length;
-    const currentQuestion = this.state.allQuestions[
-      this.state.currentQuestionIndex
-    ];
-    const index = this.state.currentQuestionIndex;
+    const { allQuestions, currentQuestionIndex } = this.state;
+    const totalLength = allQuestions.length;
+    const currentQuestion = allQuestions[currentQuestionIndex];
+    const index = currentQuestionIndex;
 
     if (!currentQuestion) {
       return null;
@@ -113,40 +110,25 @@ export default App;
 const WrapperBlock = styled(FlexDiv)`
   background-color: #ffffff;
   padding: 3rem;
-  text-align: left;
+  margin-top: 5rem;
+  text-align: center;
   color: #444444;
-  min-width: 1000px;
-  min-height: 600px;
+
+  @media (max-width: 767px) {
+    display: flex;
+    margin-top: 0;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  @media (max-width: 320px) {
+    display: flex;
+    margin-top: 0;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
 `;
-
-// ===========================================================
-// const App = () => {
-//   const [all, setAll] = useState([]);
-//   const [category, setCategory] = useState("");
-//   const [question, setQuestion] = useState([]);
-//   const [answers, setAnswers] = useState([]);
-//   const [indexOfQuestion, setIndexOfQuestion] = useState();
-
-//   useEffect(() => {
-//     axios
-//       .get("db.json")
-//       .then(res => {
-//         setAll(res.data.results);
-//         setCategory(res.data.results[0].category);
-//         setQuestion(res.data.results[0].question);
-//         setAnswers(
-//           res.data.results[0].incorrect_answers.concat(
-//             res.data.results[0].correct_answer
-//           )
-//         );
-//         setIndexOfQuestion(question.indexOf());
-//       })
-//       .catch(err => console.log(err));
-//   }, []);
-
-//   const nextQuestion = index => {
-//     return index++;
-//   };
-
-//
-// };

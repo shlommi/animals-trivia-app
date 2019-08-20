@@ -9,29 +9,41 @@ export default class QuestionBody extends Component {
     this.props.onSelectAnswer(userAnswer);
   };
   render() {
+    const { allQuetions, didUserChoosed, index } = this.props;
     return (
       <Wrapper>
         <FlexDiv column="column" marginTop="3rem">
-          {this.props.allQuetions[this.props.index].question}
+          {allQuetions[index].question}
         </FlexDiv>
-        <FlexDiv marginTop="5rem" justify="center">
-          {this.props.allQuetions[this.props.index].answers.map((answer, i) => (
+        <AnswersWrapper marginTop="5rem" justify="center">
+          {allQuetions[index].answers.map((answer, i) => (
             <button
               key={answer}
               type="button"
               className="btn btn-primary mr-3"
               onClick={() => this.handleChooseAnswer(i)}
-              disabled={this.props.didUserChoosed}
+              disabled={didUserChoosed}
             >
               {answer}
             </button>
           ))}
-        </FlexDiv>
+        </AnswersWrapper>
       </Wrapper>
     );
   }
 }
 
-const Wrapper = styled.div`
-  height: 20rem;
+const Wrapper = styled.div``;
+
+const AnswersWrapper = styled(FlexDiv)`
+  margin-bottom: 2rem;
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+    justify-content: space-around;
+    justify-self: center;
+    height: 260px;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
 `;

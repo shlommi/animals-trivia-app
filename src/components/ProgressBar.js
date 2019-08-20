@@ -1,9 +1,10 @@
 import React from "react";
-import { Div } from "../ui";
+import styled from "styled-components";
+import { FlexDiv } from "../ui";
 
 const ProgressBar = props => {
   return (
-    <Div marginTop="10px">
+    <Wrapper marginTop="10px">
       <div className="progress">
         <div
           className="progress-bar"
@@ -16,8 +17,13 @@ const ProgressBar = props => {
           {props.progress}%
         </div>
       </div>
-    </Div>
+    </Wrapper>
   );
 };
 
 export default ProgressBar;
+
+const Wrapper = styled(FlexDiv)`
+  width: 100%;
+  display: inline-block;
+`;
